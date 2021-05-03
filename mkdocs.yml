@@ -1,0 +1,34 @@
+site_name: My Full Stack Python
+repo_url: https://github.com/rjnemo/mkdocs-material
+repo_name: rjnemo/mkdocs-material
+theme:
+  name: material
+  palette:
+    scheme: preference
+    primary: amber
+    accent: red
+  font:
+    text: Roboto
+  language: fr
+  icon:
+    logo: material/fountain-pen
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - header.autohide
+extra:
+  alternate:
+    # Switch to English
+    - name: French
+      link: fr/
+      lang: fr
+    # Switch to German
+    - name: Deutsch
+      link: de/
+      lang: de
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rjnemo
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/ruidy-nemausat-522b4069/
