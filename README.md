@@ -1,5 +1,7 @@
 # My Full-Stack Python 
 
+My journey through: https://www.fullstackpython.com
+
 ```shell
 make install
 ```
