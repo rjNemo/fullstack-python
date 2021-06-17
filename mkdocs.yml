@@ -5,8 +5,8 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: teal
-    accent: lime
+    primary: purple
+    accent: yellow
   font:
     text: Roboto
   language: en
@@ -15,7 +15,7 @@ theme:
     repo: fontawesome/brands/github
   features:
     - navigation.instant
-#    - navigation.tabs
+    - navigation.tabs
     - header.autohide
     - navigation.top
 extra:
@@ -33,8 +33,17 @@ extra:
       link: https://github.com/rjnemo
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/ruidy-nemausat-522b4069/
+markdown_extensions:
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences
 nav:
   - index.md
-  - introduction.md
-  - development-environment.md
-  - data.md
+  - Fullstack Python:
+    - introduction.md
+    - development-environment.md
+    - data.md
+  - Blog:
+    - blog/decorator.md
+    - blog/circular_imports.md
+    - blog/https_server_in_dev.md
